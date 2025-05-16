@@ -57,7 +57,19 @@ public class LibraryManagement {
 		
 		 Assert.assertEquals(ParseJson.getJsonParser(deleteBookResponse).get("msg"), "book is successfully deleted");
 		 
+		
 		 
+		 /**
+		  * given baseUrl, contenTYpe
+		  * 
+		  * when   http meth
+		  * 
+		  * then
+		  * statusCode, Body, ContentType
+		  * 
+		  * 
+		  * 
+		  */
 	}
 
 }
